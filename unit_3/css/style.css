@@ -1,0 +1,15 @@
+body {
+	background: url(http://mitchellsfuneralhome.com/2016/wp-content/uploads/2016/01/burial-casket-grave-cemetery.jpg);
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	font-family: arial;
+}
+
+p {
+	font-size: 15px;
+}
+
+hr {
+	width: 275px;
+}
