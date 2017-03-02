@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/newstyle.css">
+
+
+<title> ReWork </title>
+
+<body> 
+<nav class="clearfix">
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Blog</a>
+<a href="#">Contact</a>
+</nav>
+
+<h1>Young Funeral Home </h1>
+<P>
+<div class="clearfix">
+<div class="column" id="column1">
+
+<aside>
+<img class="mySlides" src="images/frontroom.jpg" style="width:100%">
+<img class="mySlides" src="images/hallway.jpg" style="width:100%">
+<img class="mySlides" src="images/Young Funeral Home_1990.jpg" style="width:100%">
+<h3> Photo Scroll </h3>
+</aside>
+</div>
+<!--Photo Scroll-->
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+<!--End Photo Scroll-->
+
+
+<P>
+<section>
+<h2>"Burying your loved ones the right way!" </h2>
+<P><article>
+<p id="article">
+Welcome Family owned and operated, Young Funeral Home proudly serves South Atlanta families and surrounding areas. We are committed to providing quality, compassionate care to every family.</P>
+<P id="article">
+Taking great pride in meaningful and dignified funeral services, we always provide choices to best suit your needs. We are dedicated to respecting your choices and answering every question with sensitivity and integrity. </P>
+<P>
+<p id="article">
+Contact us at any time, whether you are in need of traditional services, immediate burials, cremations or would simply like to learn more about pre-planning programs.
+</P>
+</article></div>
+<P>
+<footer id="footer">
+&copy of Young Funeral Home
+<br>
+<li>
+<ul>
+Call us at (404) 555- 5555 </li>
+<li> E-mail us <a href="mailto:doesthiswork@gmail.com">YoungFuneralhome@gmail.com</a> </li>
+</footer></ul>
+
+
+
