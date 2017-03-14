@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/newstyle.css">
+	<title> Young Funeral Home  </title>
+<body> 
+	<nav class="clearfix">
+		<a href="#">Home</a>
+		<a href="#about">About</a>
+		<a href="#services">Services</a>
+		<a href="#contact">Contact</a>
+	</nav>
+
+	<h1>Young Funeral Home </h1>
+	<P>
+<div class="clearfix">
+<div class="column" id="column1">
+
+	<aside>
+	<img class="mySlides" src="images/frontroom.jpg" style="width:100%">
+	<img class="mySlides" src="images/hallway.jpg" style="width:100%">
+	<img class="mySlides" src="images/Young Funeral Home_1990.jpg" style="width:100%">
+	<h3> Photo Scroll </h3>
+	</aside>
+</div>
+
+
+
+<P>
+<section>
+<h2>"Burying your loved ones the right way!" </h2>
+<P><article>
+<p id="article">
+Welcome Family owned and operated, Young Funeral Home proudly serves South Atlanta families and surrounding areas. We are committed to providing quality, compassionate care to every family.</P>
+<P id="article">
+Taking great pride in meaningful and dignified funeral services, we always provide choices to best suit your needs. We are dedicated to respecting your choices and answering every question with sensitivity and integrity. </P>
+<P>
+<p id="article">
+Contact us at any time, whether you are in need of traditional services, immediate burials, cremations or would simply like to learn more about pre-planning programs.
+</P>
+</article></div>
+<P>
+
+<!--About Section-->
+<div id="about">
+<h2>About </h2>
+<hr> </hr>
+<P class="about">
+We're dedicated to providing personalized, professional and compassionate services to help lighten your burden and support you through the difficult times that follow the loss of a loved one. We're honored to assist you in your time of need, and would like to assure you that we'll do everything in our power to make your experience a meaningful and memorable one. Here you can explore our unique history, meet our experienced staff, connect with our local community, and hear what our customers have had to say.</P></div>
+<!--End About Section-->
+
+<!--Services-->
+<div id="services">
+<h2>Services </h2>
+<hr> </hr>
+<p class="services">
+Sometimes the thought of planning a funeral seems too difficult for those who've suffered a loss. We're here to help lighten your burden and remind you of the true value a ceremony can hold for you and your family. </p>
+<p class="services">Burial Services: 
+ 
+<P class="services">
+<font class="font">Immediate Burial</font> means that your loved one's physical remains will be buried or entombed without a public service or gathering. </P>
+<p class="services">
+<font class="font">Vistation</font> (also called a "viewing", "wake" or "calling hours") allows family and friends to gather in a room with the departed loved one (which can be in an open or closed casket) and gives everyone the opportunity to say goodbye and offer their support and sympathy to the bereaved. </p></font>
+<p class="services">
+<font class="font">Funeral or Memorial Serivces</font> can take place at a funeral home, in a church or even at your home. The service is a ceremony which serves to celebrate, honor, and remember the life of the deceased. Whether traditional or unique, both the visitation and the funeral service can be personalized to reflect the individuality of your loved one. </p>
+<P class="services">
+<font class="font">Graveside, Chapel, or Committal Services </font>
+are held at the cemetery, and allow family and friends to be present as their loved one is transferred to his or her final disposition through ground burial.</p>
+<!--End Services-->
+
+
+
+<!--Footer-->
+<footer id="footer">
+	&copy of Young Funeral Home
+	<br>
+	<ul>
+		<li>Call us at (404) 555- 5555 </li>
+		<li> E-mail us <a href="mailto:doesthiswork@gmail.com">YoungFuneralhome@gmail.com</a> </li>
+	</ul>
+</footer>
+</P>
+<!--End Footer-->
+
+
+</body>
+<!--Photo Scroll-->
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+<!--End Photo Scroll-->
+
+</html>
+
