@@ -1,25 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+
 body {
 	font-family: sans-serif;
+	background-color: white;
 }
 
 h1 {
-	text-align: center;
-	font-size: 26px;
-
+	text-align: left;
+	font-size: 50px;
+	font-family: 'Crimson Text';
+	display: inline-block;
+	color: #EFD961;
+	text-transform: uppercase;
 }
 
+
 nav {
-	background-color: #800000;
+	background-color: white;
 	font-family: tahoma, sans-serif;
 }
 
 nav a {
-	background-color: #404040;
-	color: white;
+	background-color: white;
+	color: black;
+	background: white;
 	text-decoration: none;
 	display: block;
-	float: left;
+	float: right;
 	padding: 20px;
+	font-size: 15px;
 }
 
 p {
@@ -27,22 +36,36 @@ p {
 	padding: 5px;
 }
 
-article {
-	font-size: 19px;
-	font-family: sans-serif; 
-	max-width: 600px;
-	float:left;
-
+.img {
+	width: 700px;
+	height: 600px;
+	margin: auto;
+	display: block;
 }
 
+article {
+	max-width: 600px;
+	float:left;
+	border: 1px solid black;
+	background-color: white;
+	font-size: 19px;
+	font-family: sans-serif;
+}
+
+.article {
+	font-size: 19px;
+}
+
+
+
 nav a:hover {
-	background-color: #000000;
+	background-color: white;
 }
 
 
 a {
 	font-family: arial black;
-	font-size: 16px;
+	font-size: 13px;
 	text-decoration: none;
 	font-weight: bold;
 
@@ -66,7 +89,7 @@ h2 {
 	font-size: 18px;
 	font-weight: lighter;
 	font-style: italic;
-	text-align: center;
+	text-align: left;
 }
 
 
@@ -92,16 +115,16 @@ footer {
 	font-size: 15px;
 	max-width: 1380px;
 	line-height: 2em;
-	
 }
 
 
 .services {
 	font-family: sans-serif;
-	font-size: 15px;
-	line-height: 2em;
+	line-height: 1.5em;
 	max-width: 1380px;
+	background-color: white;
 }
+
 
 .font {
 	font-size: 15px;
@@ -114,5 +137,31 @@ hr {
 	border-width: 1px;
 	max-width: 750px;
 }
+
+.h2 {
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: lighter;
+	font-style: italic;
+	text-align: center;
+}
+
+#top {
+	height:100vh;
+}
+
+#about {
+	height: 100vh;
+	background-color: white;
+}
+
+
+
+
+
+@media only screen and (min-width: 400px ) and (max-width: 598px) {
+	#menu nav a { 
+		display: none;
+
 
 }
