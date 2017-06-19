@@ -115,7 +115,7 @@ table, th, td {
     text-align: center;
     font-size: 25px;
     float: center;
-    margin-left: 560px;
+    margin-left: 530px;
     
 }
 
@@ -145,7 +145,7 @@ td {
 	background: white;
 	color: black;
         float: left;
-        margin-left: 780px;
+        margin-left: 689px;
 }
 
 .fa-twitter {
@@ -173,50 +173,52 @@ td {
 	.content {
 		float: none;
 		width: auto;
-}
+	}
 
-	.image {
-		float: none;
-		width: auto;
+		.image {
+			float: none;
+			width: auto;
+	}
 }	
-	
+		
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 	.topnav {
 		float: none;
 		width: auto;
-}
+	}
 
-	.image {
-		float: none;
-		width: 400px;
-}
+		.image {
+			float: none;
+			width: 100%;
+	}
 
-	.music {
-		float: none;
-		width: 300px;
-}
-	.videos {
-		float: none;
-		width: 500px;
-}
+		.music {
+			float: none;
+			width: 100%;
+	}
+		.videos {
+			float: none;
+			width: 100%;
+	}
 
-	.content {
-		  float: none;
-		  width: 300px;
-}
-	
+		.content {
+			  float: none;
+			  width: 100%;
+	}
+		
 
-	.h1tour {
-		float: none;
-		width: auto;
-}
+		.h1tour {
+			float: none;
+			width: auto;
+	}
 
-	.hello {
-		float: none;
-		width: auto;
-}
+		.hello {
+			float: none;
+			width: auto;
+	}
 
-	.social {
-		float: none;
-		width: auto;
+		.social {
+			float: none;
+			width: auto;
+	}
 }
